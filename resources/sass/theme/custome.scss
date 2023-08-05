@@ -1,0 +1,61 @@
+.fw-600 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.fw-400 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    font-weight: 600
+}
+.fs-22 {
+    font-size: 22px;
+    font-weight: 600
+}
+
+// .b-bg-color input{
+//     margin: .8rem;
+// }
+.logo-upload {
+    top: -2px;
+    right: 87%;
+}
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label,
+textarea:focus ~ label,
+textarea:not(:placeholder-shown) ~ label,
+select:focus ~ label,
+select:not([value=""]):valid ~ label {
+  @apply transform;
+  @apply scale-75;
+  @apply -translate-y-6;
+}
+
+input:focus ~ label,
+select:focus ~ label {
+  @apply text-black;
+  @apply left-0;
+}
+
+/* Buttons */
+.btn,
+.btn-sm {
+    @apply font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out;
+}
+
+.btn {
+    @apply px-8 py-3 shadow-lg;
+}
+
+.btn-sm {
+    @apply px-4 py-2 shadow;
+}
